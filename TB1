@@ -1,0 +1,95 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <link rel="stylesheet" href="FormatUts.css">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        background-color: #444;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+    }
+    
+    nav ul li a:hover {
+        background-color: #555;
+    }
+    
+    .profile {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .profile-photo {
+        width: 150px;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    .courses table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+    }
+    
+    .courses th, .courses td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    
+    .courses th {
+        background-color: #333;
+        color: white;
+        text-align: center;
+    }
+    
+    .courses td {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>PROFIL MAHASISWA</h1>
+    </header>
+    <section class="profile">
+        <img src="foto1.jpg" alt="Foto Profil" class="profile-photo">
+        <p>NAMA: MUHAMMAD NURWAFI MUHAROM</p>
+        <p>NIM : 41823010113</p>
+        <p>PROGRAM STUDI: SISTEM INFROMASI </p>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="UTS2016.html">HALAMAN PROFIL</a></li>
+            <li><a href="JADWAL.html">INFORMASI PERKULIAHAN</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
